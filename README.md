@@ -1,2 +1,1 @@
-# Biocosmetic-ELAJROUDI_NGAN_NGAU
-Web programing project
+NGAU_ELAJROUDI_NGAN_website
