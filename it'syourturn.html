@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="sty.css">
+        <link rel="stylesheet" href="itsyourturn.css">
+        <link rel="stylesheet" href="StyleDIY.css">
+        <link rel="stylesheet" href="mobile.css">
+        <title>Cosmetic_NGAU_NGAN_EL_AJROUDI</title>
+
+
+    </head>
+
+    <body>
+        <header>
+            <div class="page-wrap">
+                <div class="logo-memory">
+                    <nav class="burger_menu">
+                        <div>
+                            <a href="home.html" class="title">biocosmetic</a>
+                        </div>
+                        <ul class="nav_burger">
+                            
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="brands.html">Brands</a></li>
+                            <li><a href="face.html">Face</a></li>
+                            <li><a href="body.html">Body</a></li>
+                            <li><a href="haircare.html" >Hair</a></li>
+                            <li><a href="diy.html">DIY</a></li>
+                            <li><a href="it'syourturn.html"class="selected">It's your turn</a></li>
+                        </ul>
+            
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+            
+            <div class="memory">
+                <h1>Let's play Memory !</h1>
+                <p></p>
+            </div></div>
+
+            <div class="slider">
+              <ul id="slider-list">
+                 <li>
+                     <img src="terre.webp" alt=""/>
+                 </li>
+                 <li>
+                     <img src="bio.jpg" alt=""/>
+                 </li>
+                 <li>
+                     <img src="lotus.webp" alt=""/>
+                 </li>
+                 <li>
+                     <img src="biocosmetic.webp" alt=""/>
+                 </li>
+                 <li>
+                     <img src="bannière.jpg" alt=""/>
+                 </li>
+              </ul>
+            </div>
+            <script src="haircare.js"></script>
+            <script src="mobile.js"></script>
+         </header>
+        
+<main>
+    
+        <h1 class="game-title">Memory game</h1>
+        
+        <div class="rules">
+            <p>Hey, let's play the memory game. The goal of this game is to match the pairs of cards 2 by 2. 
+            If the cards flipped face up are the same you win, otherwise the cards are automatically turned face down and you need to make a new try. Try to find all the pairs in 50 seconds. Good luck !</p>
+        </div>
+
+        <div class="startbutton" style=" text-align: center;">
+          <button onclick="startGame()" class="gameStart">Click to start</button>
+        </div>
+        
+
+        <div class="game">
+            <div class="game-info-container" >
+                <div id="game-info">
+                    Time: <span id="timer" >50</span>
+                </div>
+            </div>
+        </div>
+        <div id="board">
+            <div class="memory-game">
+                <div class="game-card" data-nb="1">
+                    <img class="front-face" src="YT/card1.png" alt="1">
+                    <img class="back-face" src="YT/logo.png" alt="badge">
+                </div>
+                <div class="game-card" data-nb="1">
+                    <img class="front-face" src="YT/card1.png" alt="1">
+                    <img class="back-face" src="YT/logo.png" alt="badge">
+                </div>
+                <div class="game-card" data-nb="2">
+                    <img class="front-face" src="YT/card2.png" alt="2">
+                    <img class="back-face" src="YT/logo.png" alt="badge">
+                </div>
+                <div class="game-card" data-nb="2">
+                    <img class="front-face" src="YT/card2.png" alt="2">
+                    <img class="back-face" src="YT/logo.png" alt="badge">
+                </div>
+                <div class="game-card" data-nb="3">
+                    <img class="front-face" src="YT/card3.png" alt="3">
+                    <img class="back-face" src="YT/logo.png" alt="badge">
+                </div>
+                <div class="game-card" data-nb="3">
+                    <img class="front-face" src="YT/card3.png" alt="3">
+                    <img class="back-face" src="YT/logo.png" alt="badge">
+                </div>
+                <div class="game-card" data-nb="4">
+                    <img class="front-face" src="YT/card4.png" alt="4">
+                    <img class="back-face" src="YT/logo.png" alt="badge">
+                </div>
+                <div class="game-card" data-nb="4">
+                    <img class="front-face" src="YT/card4.png" alt="4">
+                    <img class="back-face" src="YT/logo.png" alt="badge">
+                </div>
+                <div class="game-card" data-nb="5">
+                    <img class="front-face" src="YT/card5.png" alt="5">
+                    <img class="back-face" src="YT/logo.png" alt="badge">
+                </div>
+                <div class="game-card" data-nb="5">
+                    <img class="front-face" src="YT/card5.png" alt="5">
+                    <img class="back-face" src="YT/logo.png" alt="badge">
+                </div>
+                <div class="game-card" data-nb="6">
+                    <img class="front-face" src="YT/card6.png" alt="6">
+                    <img class="back-face" src="YT/logo.png" alt="badge">
+                </div>
+                <div class="game-card" data-nb="6">
+                    <img class="front-face" src="YT/card6.png" alt="6">
+                    <img class="back-face" src="YT/logo.png" alt="badge">
+                </div>
+                
+            </div>
+        </div>
+
+
+        <script src="itsyourturn.js"></script>
+
+    </main> 
+
+    <footer class="site-footer">
+        <div class="footer">
+            <div class="contacts">
+                <h2>Contact us</h2>
+                <div class="bordure"></div>
+                <ul class="nav_footer">
+                    <li><a href="https://www.facebook.com/">Facebook<img src="facebook.png" alt=""/></a></li>
+                    <li><a href="https://twitter.com/explore">Twitter<img src="twitter.png" alt=""/></a></li>
+                </ul> 
+            </div>
+
+            <div class="aboutus" style="margin: 0px 60px 0px;">
+                <h2>Learn more</h2>
+                <div class="bordure"></div>
+                <a href="aboutus.html">
+                    <button type="button" id="songs" class="menu_button" formnovalidate >About us</button>
+                </a>
+            </div>
+
+            <div class="credit" style="margin: 0px 50px 0px;">
+                <h2>Credits</h2>
+                <div class="bordure"></div>
+                <p >Copyright &copy; <script>document.write(new Date().getFullYear());</script>, BIOCOSMETIC</p>
+            </div>
+            <div class="efrei" >
+                <h2>EFREI Paris</h2>
+                <div class="bordure"></div>
+                <div class="efrei"><a href="https://www.efrei.fr/"><img src="efrei.png" alt=""/></a></div>
+                </div>
+             </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
+
