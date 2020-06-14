@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="sty.css">
+        <title>Cosmetic_NGAU_NGAN_ELAJROUDI</title>
+    </head>
+    
+
+
+    <body>
+        <header>
+            <div class="page-wrap">
+            <a href="home.html" class="title">BioCosmetic</a>
+            <nav class="navigation">
+                <ul class="nav">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="brands.html">Brands</a></li>
+                    <li><a href="face.html">Face</a></li>
+                    <li><a href="body.html">Body</a></li>
+                    <li><a href="haircare.html">Hair</a></li>
+                    <li><a href="diy.html">DIY</a></li>
+                    <li><a href="it'syourturn.html">It's your turn</a></li>
+                </ul>
+            </nav>
+
+            
+
+            <div class='style' >
+                <img src="FACECARE/face-care.png"  width=100 height=100 alt=""/>
+
+
+            </div>
+            <script src="haircare.js"></script>
+        </header>
+            
+        <article id="article">
+            <h1>Face care routine</h1>
+            <p>You are probably here because you would like to have more information about which products to use for your skincare. <br>Don't worry, we, Imane, Aurélia and Julie, are here to help you find fresh products for your skin <br>so you can boost your natural beauty and get the clear, radiant look that you have always longed for. </p>
+        </article>
+        <article>
+            <h1>Figure out your skin type first!</h1>
+            <nav class="navigationFace">
+            <div class="menuFACE">
+                <button type="button" id="Normal_nav" class="menu_Face">Normal</button>
+                <button type="button" id="Dry_nav" class="menu_Face">Dry</button>
+                <button type="button" id="Oily_nav" class="menu_Face">Oily</button>
+                <button type="button" id="Combination skin_nav" class="menu_Face">Combination skin</button>
+            </div>            
+        </nav>
+        </article>
+
+
+
+
+                
+
+
+
+<div id="Dry">
+            <div class="slide-container">
+                  <div class="mySlide">
+                    <img src="" style="width:80%; height: 70%">
+                  </div>
+            </div>      
+
+                  
+
+                
+
+
+
+
+                 
+
+                  
+            
+
+
+
+
+
+
+
+        
+    
+    </body>
+</div>
+    <footer class="site-footer">
+        <ul class="nav_footer">
+            <li><a href="https://www.facebook.com/">Facebook<img src="facebook.png" alt=""/></a></li>
+                <li><a href="https://twitter.com/explore">Twitter<img src="twitter.png" alt=""/></a></li>
+            <li><a class="credits">credits</a></li>
+            <a href="aboutus.html">
+                <button type="button" id="songs" class="menu_button" formnovalidate >About us</button>
+            </a>
+        </ul> 
+    </footer>
+</html>
+
